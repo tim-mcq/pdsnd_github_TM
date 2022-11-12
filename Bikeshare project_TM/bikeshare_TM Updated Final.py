@@ -17,7 +17,7 @@ CITY_DATA = { 'chicago': 'chicago.csv',
 
 """This message initiates the bike share data application"""
 
-print('\nHello, and welcome to the bikeshare database! You can press \'end\' to exit the program or \'restart\' to start again at any time.') 
+print('\nHello, and welcome to the bikeshare database! You can press \'end\' to exit the program or \'restart\' to start again at any time.')  
 
 
 """This section gathers the user input to inform data filtering"""
