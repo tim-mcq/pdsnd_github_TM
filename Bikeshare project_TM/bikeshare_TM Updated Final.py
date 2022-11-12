@@ -17,7 +17,7 @@ CITY_DATA = { 'chicago': 'chicago.csv',
 
 """This message initiates the bike share data application"""
 
-print('\nWelcome to the bikeshare database! You can press \'end\' to exit the program or \'restart\' to start again at any time.')
+print('\nHello, and welcome to the bikeshare database! You can press \'end\' to exit the program or \'restart\' to start again at any time.')
 
 
 """This section gathers the user input to inform data filtering"""
@@ -25,7 +25,7 @@ print('\nWelcome to the bikeshare database! You can press \'end\' to exit the pr
 def selection(response, selections=('y', 'n')):
     while True:
         selection = input(response).lower().strip()
-        response = ("\nError: Cannot compute. Looks like that entry is invalid. Please check your formatting and enter a valid response.\n\nYou can press \'end\' to exit the program or \'restart\' to start again at any time.\n>")
+        response = ("\nOops. Looks like that entry is invalid. Please check your formatting and enter a valid response.\n\nYou can press \'end\' to exit the program or \'restart\' to start again at any time.\n>")
         if ',' in selection:
             selection = [i.strip().lower() for i in selection.split(',')]
             if list(filter(lambda x: x in selections, selection)) == selection:
