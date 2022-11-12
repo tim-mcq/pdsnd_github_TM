@@ -117,7 +117,7 @@ def bike_user_info(df):
 
     """Provides count of gender for queried bike share data"""
 
-    """Uses try and except clauses for error handling in case the user has selected Washington, which does not have gender data"""
+    """Uses try and except clauses for error handling in case the user has selected Washington, which does not have gender data""" 
 
     user_types = df['User Type'].value_counts().to_string()
     print("\nDistribution for user types:\n", user_types)
