@@ -139,7 +139,7 @@ def bike_user_info(df):
 
     """Uses try and except clauses for error handling in case the user has selected Washington, which does not have birth year data"""
 
-    print("\nThis calculation required %s seconds to compute." % (time.time() - start_time))
+    print("\nThis statistical analysis required %s seconds to compute." % (time.time() - start_time))
     print('-'*40)
 
     return user_types
